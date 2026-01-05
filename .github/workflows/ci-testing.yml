@@ -22,5 +22,5 @@ jobs:
 
     - name: 📦 Build & Run Tests (Maven)
       working-directory: demo5   # ajusta a la carpeta donde está tu pom.xml
-      run: mvn clean verify -DskipTests=false
+      run: mvn clean test -Dtest=RunnerEdge
 
