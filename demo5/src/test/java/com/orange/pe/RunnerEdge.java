@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 features ="src/test/resources/features",
 glue="com.orange.pe.definitions",
-tags="@Suite and @CP1"
+tags="@Suite and @CP2"
 
 )
 
