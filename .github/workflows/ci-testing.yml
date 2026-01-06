@@ -21,6 +21,6 @@ jobs:
         cache: 'maven'            # cachea dependencias para acelerar
 
     - name: 📦 Build & Run Tests (Maven)
-      working-directory: demo5   # ajusta a la carpeta donde está tu pom.xml
+      working-directory: demo5   # ajusta a la carpeta donde está tu pom.xml 1111
       run: mvn clean test -Dtest=RunnerEdge
 
