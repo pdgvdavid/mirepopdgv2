@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest    # mejor usar Linux para Java
+    runs-on: windows-latest #ubuntu-latest    # mejor usar Linux para Java
 
     steps:
     - name: 🧲 Checkout repo
